@@ -1,5 +1,4 @@
 
-// For those who want the bleeding edge
 buildscript {
     repositories {
         jcenter()
@@ -7,10 +6,17 @@ buildscript {
             name = "forge"
             url = "http://files.minecraftforge.net/maven"
         }
+        maven {
+            name = "sponge"
+            url = "https://repo.spongepowered.org/repository/maven-public/"
+        }
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT'
+        // 👇 下面这行是新增的 Mixin 编译插件
+        classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
     }
+}
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
 
