@@ -9,7 +9,7 @@ jobs:
       uses: actions/setup-java@v4
       with:
         distribution: 'temurin'
-        java-version: '21'   # ⚠️注意：如果你的模组是1.18-1.20.4版本，这里改成 '17'；如果是1.16.5，改成 '8'
+        java-version: '8'   # ⚠️注意：如果你的模组是1.18-1.20.4版本，这里改成 '17'；如果是1.16.5，改成 '8'
     - name: Build with Gradle
       run: chmod +x ./gradlew && ./gradlew build
     - name: Upload Mod Jar
