@@ -17,7 +17,6 @@ buildscript {
         classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
     }
 }
-}
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 /*
