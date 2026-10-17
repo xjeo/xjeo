@@ -1,16 +1,16 @@
-## Hi there 👋
+# ZombieCat 
+- zombies util in hypixel
+- base: https://github.com/Kopamed/Raven-bPLUS
+- lots of shit code
+- thanks to qwqajia/solakoy/seosean
 
-<!--
-**xjeo/xjeo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ADDED STUFF:
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1. Mob Priority aimbot (for bb targets all mobs pefore the skeles)
+2. Skele priority aimbot (for bb targets all skeles before the mobs)
+3. Ignore entity lets you hit mobs but ignores villagers (1.20 viaforge stuff)
+4. Ghostblocks don't gb chest anymore
+5. Added feature called WindowDetect (notifies in chat if a window spawns)
+6. Tracers for all de bosses
+7. Tracer for King slime
+8. colour customisable for hitbox
